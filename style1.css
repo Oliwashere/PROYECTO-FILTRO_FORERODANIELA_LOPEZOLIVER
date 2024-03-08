@@ -3,5 +3,21 @@ html{
     background-image: url("media/pexels-pixabay-159400@2x.png");
     background-color: #000000;
     background-size: cover;
+    padding: 0;
+    margin: 0;
 }
-
+.modal{
+    display: flex;
+    justify-content: center;
+}
+.modal-container{
+    position: fixed;
+    width: 50vi;
+    height: 40vi;
+    border-radius: 3vi;
+    background-color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    top: 5vi
+}
+/**/
