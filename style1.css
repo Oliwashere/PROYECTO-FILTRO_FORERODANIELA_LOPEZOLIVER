@@ -1,23 +1,132 @@
-/*Fondo */
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Regular'), url('media/font/MYRIADPRO-REGULAR.woff') format("woff");}
+
 html{
     background-image: url("media/pexels-pixabay-159400@2x.png");
-    background-color: #000000;
+    background-color: #000000;    
+    object-fit:none;
     background-size: cover;
-    padding: 0;
+    background-repeat: no-repeat;
     margin: 0;
-}
-.modal{
+    padding: 0;
+    font-family: "Myriad Pro Regular";
+    overflow: auto;}
+html, body{
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+    height: 100%;
     display: flex;
     justify-content: center;
+    text-align: center;}
+
+.logo-center{
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.logo{
+    opacity: 0%;
+    position:absolute;
+    z-index: 0;
+    width: 10vi;
+    animation: breath 4s 0s;}
+@keyframes breath {
+    0%{
+        opacity: 0%;
+    }
+    20%{
+        opacity: 100%;
+    }
+    50%{
+        opacity: 0%;
+    }
+    70%{
+        opacity: 0%;
+    }
+    90%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+    }}
+
+
+/*CUADRO*/
+.modal{
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .modal-container{
-    position: fixed;
-    width: 50vi;
-    height: 40vi;
-    border-radius: 3vi;
+    position: absolute;
+    width: 34vi;
+    height: 34vi;
+    border-radius: 3.5vi;
     background-color: #ffffff;
     text-align: center;
     justify-content: center;
-    top: 5vi
+    padding: 2vi;
+    padding-left: 4vi;
+    padding-right: 4vi;
+    border: 0.1vi solid #636363;
+    animation: appear 3.9s 0s;}
+@keyframes appear {
+        0%{
+            opacity: 0%;
+        }
+        50%{
+            opacity: 0%;
+        }
+        90%{
+            opacity: 0%;
+        }
+        100%{
+            opacity: 100%;
+        }}
+
+.welcome{
+    font-size: 2.1vi;
+    font-weight: 500;
+    margin: 0.6vi;}
+.subtitle{
+    font-size: 1vi;
+    font-weight: 100;
+    margin:0.7vi;
+    color: #7a7a7a;}
+.logomedia{
+    width: 5.3vi;
+    margin: 0vi;}
+
+.tag-style{
+    display: flex;
+    font-size: 1.4vi;
+    color: #696969;
+    margin: 1vi;
+    white-space: pre-wrap;
+    margin-bottom: 0.4vi;}
+.input-style{
+    margin-top: 0vh;
+    border-radius: 1vi;
+    padding: 0vi 1vi;
+    width: 30vi;
+    height: 2.5vi;
+    border: 0.1vi solid #979797;
 }
+
+
 /**/
