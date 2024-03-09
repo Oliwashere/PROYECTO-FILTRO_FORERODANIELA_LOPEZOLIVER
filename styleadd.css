@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "myriadpro-regular";
+    src: url(/media/font/MYRIADPRO-REGULAR.woff);
+}
+@font-face {
+    font-family: "myriadpro-light";
+    src: url(/media/font/MyriadPro-Light.otf);
+}
+@font-face {
+    font-family: "myriadpro-semibold";
+    src: url(/media/font/MYRIADPRO-SEMIBOLD.OTF);
+}
+@font-face {
+    font-family: "myriadpro-bold";
+    src: url(/media/font/MYRIADPRO-BOLD.OTF);
+}
+
+
+html{
+    background-color: #ffffff;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.main-container{
+    position: fixed;
+    left: 0vi;
+    top: 0vi;
+}
+.line {
+    position: fixed;
+    display: flex;
+    width: 100vi;
+    height: 0.1vi;
+    background-color: #000000;
+    border-width: 1vi;
+    margin-top: 4.3vi;
+}
+.addlogo {
+    position: fixed;
+    display: flex;
+    width: 1.7vi;
+    margin-left: 9.7vi;
+    margin-top: 1.7vi;
+}
+.add {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-semibold";
+    font-size: 1.2vi;
+    margin-left: 12vi;
+    margin-top: 1.8vi;
+}
+.refreshlogo {
+    position: fixed;
+    display: flex;
+    width: 1.4vi;
+    margin-left: 22vi;
+    margin-top: 1.7vi;
+}
+.refresh {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-semibold";
+    font-size: 1.2vi;
+    margin-left: 23.8vi;
+    margin-top: 1.8vi;
+}
+.deletelogo {
+    position: fixed;
+    display: flex;
+    width: 1.3vi;
+    margin-left: 35vi;
+    margin-top: 1.7vi;
+}
+.delete {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-semibold";
+    font-size: 1.2vi;
+    margin-left: 36.8vi;
+    margin-top: 1.8vi;
+}
+.kairologo {
+    position: fixed;
+    display: flex;
+    width: 2.2vi;
+    margin-left: 49vi;
+    margin-top: 1.4vi;
+}
+.reportlogo {
+    position: fixed;
+    display: flex;
+    width: 1.8vi;
+    margin-left: 63.5vi;
+    margin-top: 1.4vi;
+}
+.report {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-semibold";
+    font-size: 1.2vi;
+    margin-left: 65.9vi;
+    margin-top: 1.7vi;
+}
+.helplogo {
+    position: fixed;
+    display: flex;
+    width: 1.8vi;
+    margin-left: 77.5vi;
+    margin-top: 1.5vi;
+}
+.help {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-semibold";
+    font-size: 1.2vi;
+    margin-left: 80vi;
+    margin-top: 1.7vi;
+}
+.settings {
+    position: fixed;
+    display: flex;
+    width: 1vi;
+    margin-left: 92.1vi;
+    margin-top: 1.9vi;
+}
+.notif {
+    position: fixed;
+    display: flex;
+    width: 1.1vi;
+    margin-left: 94.1vi;
+    margin-top: 1.9vi;
+}
+.pfp {
+    position: fixed;
+    display: flex;
+    width: 2.6vi;
+    margin-left: 96.2vi;
+    margin-top: 1vi;
+}
