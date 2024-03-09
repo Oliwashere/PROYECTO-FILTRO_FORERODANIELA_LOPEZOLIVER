@@ -2,13 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="logo-center">
+    <img class="logo" src="media/kario@2x.png"/>
+    </div>
     <section class="modal">
         <div class="modal-container">
-
+            <img class="logomedia" src="media/kario@2x.png"/>
+            <h2 class="welcome">Bienvenido al panel digital de
+                <br>KARIO Media</br>
+                <p class="subtitle">Por favor ingresa los siguientes datos para ingresar a la plataforma</p>
+            </h2>
+            <div>
+                <div>
+                    <p class="tag-style">Usuario</p>
+                    <input required class="input-style" type="text" pattern="[^-,]+" onkeypress="return event.charCode != 32"> <!--Lo último desactiva la posibilidad de poner espacios en esta casilla-->
+                </div>
+                <div>
+                    <p class="tag-style">Contraseña</p>
+                    <input required class="input-style" type="password">
+                </div>
+            </div>
         </div>
     </section>
 </body>
