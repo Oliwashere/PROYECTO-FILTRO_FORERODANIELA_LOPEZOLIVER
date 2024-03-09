@@ -143,3 +143,184 @@ html{
     margin-left: 96.2vi;
     margin-top: 1vi;
 }
+.txt1 {
+    position: fixed;
+    display: flex;
+    font-size: 3.4vi;
+    font-family: "myriadpro-regular";
+    margin-left: 7vi;
+    margin-top: 5vi;
+}
+.bandera {
+    position: fixed;
+    display: flex;
+    width: 4vi;
+    margin-left: 3vi;
+    margin-top: 4.8vi;
+}
+.txt2 {
+    position: fixed;
+    display: flex;
+    font-size: 1.7vi;
+    font-family: "myriadpro-light";
+    margin-left: 5vi;
+    margin-top: 10vi;
+}
+.marco1 {
+    position: fixed;
+    display: flex;
+    width: 25.2vi;
+    height: 18.2vi;
+    background-color: #ffffff;
+    border-color: #868686;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 18.5vi;
+    margin-left: 3.8vi;
+}
+.marco2 {
+    position: fixed;
+    display: flex;
+    width: 65.2vi;
+    height: 18.2vi;
+    background-color: #ffffff;
+    border-color: #868686;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 18.5vi;
+    margin-left: 32vi;
+}
+.adv {
+    position: fixed;
+    display: flex;
+    width: 7vi;
+    margin-left: 8vi;
+    margin-top: 20vi;
+}
+.bug1 {
+    position: fixed;
+    display: flex;
+    width: 7vi;
+    margin-left: 18vi;
+    margin-top: 22vi;
+    transform:rotate(45deg)
+}
+.bug2 {
+    position: fixed;
+    display: flex;
+    width: 5vi;
+    margin-left: 8vi;
+    margin-top: 29vi;
+    transform:rotate(-45deg)
+}
+.txt3 {
+    position: fixed;
+    display: flex;
+    font-size: 1.7vi;
+    font-family: "myriadpro-regular";
+    margin-left: 33vi;
+    margin-top: 19.8vi;
+}
+.marco3 {
+    position: fixed;
+    display: flex;
+    width: 60.2vi;
+    height: 8.2vi;
+    background-color: #ffffff;
+    border-radius: 1vi;
+    border-color: #868686;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 23.5vi;
+    margin-left: 33.9vi;
+}
+.boton1 {
+    position: fixed;
+    display: flex;
+    width: 12.2vi;
+    height: 2.3vi;
+    background-color: #FF7221;
+    border-radius: 1vi;
+    border-color: #868686;
+    border-width: 0px;
+    border-style: solid;
+    margin-top: 33.1vi;
+    margin-left: 34.9vi;
+}
+.txt4 {
+    position: fixed;
+    display: flex;
+    font-size: 1.7vi;
+    font-family: "myriadpro-regular";
+    color: #868686;
+    margin-left: 35vi;
+    margin-top: 23.7vi;
+}
+.txt5 {
+    position: fixed;
+    display: flex;
+    font-size: 1vi;
+    font-family: "myriadpro-light";
+    color: #ffffff;
+    margin-left: 37.5vi;
+    margin-top: 33.7vi;
+}
+.adj {
+    position: fixed;
+    display: flex;
+    width: 1.4vi;
+    margin-left: 35.5vi;
+    margin-top: 33.5vi;
+}
+.boton2 {
+    position: fixed;
+    display: flex;
+    width: 20.4vi;
+    height: 4vi;
+    background-color: #dddddd;
+    border-radius: 2vi;
+    border-color: #868686;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 38.5vi;
+    margin-left: 49.9vi;
+}
+.txt6 {
+    position: fixed;
+    display: flex;
+    font-size: 1.7vi;
+    font-family: "myriadpro-regular";
+    margin-left: 57vi;
+    margin-top: 39.5vi;
+}
+.boton3 {
+    position: fixed;
+    display: flex;
+    width: 20.4vi;
+    height: 4vi;
+    background-color: #FF7221;
+    border-radius: 2vi;
+    border-color: #ffffff;
+    border-width: 0px;
+    border-style: solid;
+    margin-top: 38.5vi;
+    margin-left: 73.9vi;
+}
+.txt7 {
+    position: fixed;
+    display: flex;
+    font-size: 1.7vi;
+    font-family: "myriadpro-regular";
+    color: #ffffff;
+    margin-left: 82vi;
+    margin-top: 39.5vi;
+}
+.linea {
+    position: fixed;
+    display: flex;
+    width: 8.5vi;
+    height: 0.3vi;
+    background-color: #FF7221;
+    margin-top: 3.7vi;
+    margin-left: 62.9vi;
+}
