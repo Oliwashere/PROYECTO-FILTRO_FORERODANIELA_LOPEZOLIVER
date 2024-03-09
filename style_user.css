@@ -64,7 +64,7 @@ html, body{
     opacity: 100%;
     position: absolute;
     width: 44vi;
-    height: 36vi;
+    height: 25vi;
     border-radius: 3.5vi;
     background-color: #ffffff;
     text-align: center;
@@ -94,57 +94,24 @@ html, body{
 .welcome{
     font-size: 2vi;
     font-weight: 500;
-    margin: 0.6vi;}
-.subtitle{
-    font-size: 1vi;
-    font-weight: 100;
-    margin:0.7vi;
-    color: #7a7a7a;
-    font-family: "Myriad Pro Light";}
+    margin: 0.6vi;
+    margin-top: 2vi;}
 .logomedia{
     width: 5.3vi;
     margin: 0vi;
     cursor: pointer;}
 
-.tag-style{
-    display: flex;
-    font-size: 1.3vi;
-    color: #696969;
-    margin: 1.3vi;
-    margin-left: 5.2vi;
-    margin-bottom: 0.4vi;
-    font-weight: 100;
-    font-family: "Myriad Pro Light";}
-.input-style{
-    margin-top: 0vh;
-    border-radius: 1vi;
-    padding: 0vi 1vi;
-    width:33vi;
-    height: 2.6vi;
-    border: 0.1vi solid #979797;}
-
-.enter-button{
+.user-icon{
+    margin-top: 0.7vi;
+    width: 5.8vi;
+    border-radius: 20vi;
+    border: solid #ff721b 0.1vi;}
+.user-name{
+    font-size: 2vi;
+    font-weight: 500;
+    margin: 0.6vi;
+    margin-top: 0.5vi;}
+.user-type{
     margin-top: 1.3vi;
     font-size: 1vi;
-    font-family: 'Myriad Pro Light';
-    font-weight: 100;
-    color: #ffffff;
-    background-color: #ff721b;
-    width: 17vi;
-    height: 3.5vi;
-    border: transparent;
-    border-radius: 10vi;
-    cursor: pointer;}
-
-.contact-us{
-    margin-top: 1.4vi;
-    font-size: 0.9vi;
-    font-family: 'Myriad Pro Light';
-}
-.contact-us-with:hover{
-    cursor: pointer;
-    text-decoration: underline;
-    color: #e46517;
-}
-
-/**/
+    font-family: 'Myriad Pro Light';}
