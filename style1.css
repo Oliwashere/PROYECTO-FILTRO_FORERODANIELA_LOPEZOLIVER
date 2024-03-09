@@ -88,7 +88,7 @@ html, body{
     background-color: #ffffff;
     text-align: center;
     justify-content: center;
-    padding: 2vi;
+    padding: 2.6vi;
     padding-left: 4vi;
     padding-right: 4vi;
     border: 0.1vi solid #636363;
@@ -119,7 +119,8 @@ html, body{
     font-family: "Myriad Pro Light";}
 .logomedia{
     width: 5.3vi;
-    margin: 0vi;}
+    margin: 0vi;
+    cursor: pointer;}
 
 .tag-style{
     display: flex;
@@ -157,6 +158,7 @@ html, body{
     font-family: 'Myriad Pro Light';
 }
 .contact-us-with:hover{
+    cursor: pointer;
     text-decoration: underline;
     color: #e46517;
 }
