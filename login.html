@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="style_login.css">
 </head>
@@ -17,7 +18,7 @@
                 <p class="subtitle">Por favor ingresa los siguientes datos para ingresar a la plataforma</p>
             </h2>
             <div> <!--Para que no afecte config anterior-->
-                <form action="main.html" method="post">
+                <form action="user.html" method="get">
                     <div>
                         <p class="tag-style">Usuario</p>
                         <input required class="input-style" type="text" pattern="[^-,]+" onkeypress="return event.charCode != 32"> <!--Lo último desactiva la posibilidad de poner espacios en esta casilla-->
@@ -26,7 +27,7 @@
                         <p class="tag-style">Contraseña</p>
                         <input required class="input-style" type="password">
                     </div>
-                    <button class="enter-button">Ingresar al panel</button>
+                    <input type="submit" class="enter-button" value="Ingresar al panel">
                 </form>
                 <p class="contact-us">Tienes problemas para ingresar? Por favor contactarse con <a class="contact-us-with">asistencia técnica</a> lo más pronto posible</p>
             </div>
