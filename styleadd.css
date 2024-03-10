@@ -143,3 +143,459 @@ html{
     margin-left: 96.2vi;
     margin-top: 1vi;
 }
+.txt1 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-regular";
+    font-size: 3.2vi;
+    margin-left: 38.8vi;
+    margin-top: 5vi;
+}
+.addlogo2 {
+    position: fixed;
+    display: flex;
+    width: 2.2vi;
+    margin-left: 35.5vi;
+    margin-top: 5.9vi;
+}
+.txt2 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-light";
+    font-size: 1.7vi;
+    text-align: center;
+    margin-left: 25.8vi;
+    margin-top: 9.5vi;
+}
+.marco1 {
+    position: fixed;
+    display: flex;
+    width: 95.8vi;
+    height: 26.2vi;
+    background-color: #ffffff;
+    border-color: #868686;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 12.5vi;
+    margin-left: 2vi;
+}
+.marco2 {
+    position: fixed;
+    display: flex;
+    width: 31.8vi;
+    height: 26.2vi;
+    background-color: #ffffff;
+    border-color: #868686;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 12.5vi;
+    margin-left: 34vi;
+}
+.txt3 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-regular";
+    font-size: 1.7vi;
+    margin-left: 3.6vi;
+    margin-top: 15.2vi;
+}
+.input1 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-regular";
+    border-width: 0.1vi;
+    border-radius: 2vi;
+    font-size: 1.2vi;
+    width: 27.5vi;
+    height: 2.1vi;
+    margin-left: 3.6vi;
+    margin-top: 18vi;
+}
+.txt4 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-regular";
+    font-size: 1.7vi;
+    margin-left: 3.6vi;
+    margin-top: 23.2vi;
+}
+.input2 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-regular";
+    border-width: 0.1vi;
+    border-radius: 2vi;
+    font-size: 1.2vi;
+    width: 27.5vi;
+    height: 2.1vi;
+    margin-left: 3.6vi;
+    margin-top: 26.2vi;
+}
+.txt5 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-regular";
+    font-size: 1.7vi;
+    margin-left: 3.6vi;
+    margin-top: 31.2vi;
+}
+.input3 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-regular";
+    border-width: 0.1vi;
+    border-radius: 2vi;
+    font-size: 1.2vi;
+    width: 27.5vi;
+    height: 2.1vi;
+    margin-left: 3.6vi;
+    margin-top: 34.2vi;
+}
+.txt6 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-regular";
+    font-size: 1.7vi;
+    margin-left: 35.6vi;
+    margin-top: 15.2vi;
+}
+.input4 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-regular";
+    border-width: 0.1vi;
+    border-radius: 2vi;
+    font-size: 1.2vi;
+    width: 27.5vi;
+    height: 2.1vi;
+    margin-left: 35.6vi;
+    margin-top: 18vi;
+}
+.txt7 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-regular";
+    font-size: 1.7vi;
+    margin-left: 35.6vi;
+    margin-top: 23.2vi;
+}
+.input5 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-regular";
+    border-width: 0.1vi;
+    border-radius: 2vi;
+    font-size: 1.2vi;
+    width: 27.5vi;
+    height: 2.1vi;
+    margin-left: 35.6vi;
+    margin-top: 26.2vi;
+}
+.txt8 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-regular";
+    font-size: 1.7vi;
+    margin-left: 67.6vi;
+    margin-top: 31.2vi;
+}
+.input6 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-regular";
+    border-width: 0.1vi;
+    border-radius: 2vi;
+    font-size: 1.2vi;
+    width: 27.5vi;
+    height: 2.1vi;
+    margin-left: 67.6vi;
+    margin-top: 34.2vi;
+}
+.txt9 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-regular";
+    font-size: 1.7vi;
+    margin-left: 67.6vi;
+    margin-top: 15.2vi;
+}
+.input7 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-regular";
+    border-width: 0.1vi;
+    border-radius: 2vi;
+    font-size: 1.2vi;
+    width: 27.5vi;
+    height: 2.1vi;
+    margin-left: 67.6vi;
+    margin-top: 18vi;
+}
+.txt10 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-regular";
+    font-size: 1.7vi;
+    margin-left: 67.6vi;
+    margin-top: 23.2vi;
+}
+.input8 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-regular";
+    border-width: 0.1vi;
+    border-radius: 2vi;
+    font-size: 1.2vi;
+    width: 27.5vi;
+    height: 2.1vi;
+    margin-left: 67.6vi;
+    margin-top: 26.2vi;
+}
+.txt11 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-regular";
+    font-size: 1.7vi;
+    margin-left: 35.6vi;
+    margin-top: 31.2vi;
+}
+.input9 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-regular";
+    border-width: 0.1vi;
+    border-radius: 2vi;
+    font-size: 1.2vi;
+    width: 27.5vi;
+    height: 2.1vi;
+    margin-left: 35.6vi;
+    margin-top: 34.2vi;
+}
+.txt12 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-semibold";
+    font-size: 1.2vi;
+    margin-left: 5vi;
+    margin-top: 40.2vi;
+}
+.txt13 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-semibold";
+    font-size: 1.2vi;
+    margin-left: 19vi;
+    margin-top: 40.2vi;
+}
+.txt14 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-semibold";
+    font-size: 1.2vi;
+    margin-left: 32vi;
+    margin-top: 40.2vi;
+}
+.txt15 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-semibold";
+    font-size: 1.2vi;
+    margin-left: 39.5vi;
+    margin-top: 40.2vi;
+}
+.txt16 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-semibold";
+    font-size: 1.2vi;
+    margin-left: 49.5vi;
+    margin-top: 40.2vi;
+}
+.txt17 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-semibold";
+    font-size: 1.2vi;
+    margin-left: 62.5vi;
+    margin-top: 40.2vi;
+}
+.txt18 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-semibold";
+    font-size: 1.2vi;
+    margin-left: 69vi;
+    margin-top: 40.2vi;
+}
+.txt19 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-semibold";
+    font-size: 1.2vi;
+    margin-left: 76.5vi;
+    margin-top: 40.2vi;
+}
+.txt20 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-semibold";
+    font-size: 1.2vi;
+    margin-left: 87.5vi;
+    margin-top: 40.2vi;
+}
+.marcoej {
+    position: fixed;
+    display: flex;
+    width: 89.2vi;
+    height: 4.2vi;
+    background-color: #ffffff;
+    border-color: #868686;
+    border-width: 1px;
+    border-radius: 1.7vi;
+    border-style: solid;
+    margin-top: 42.5vi;
+    margin-left: 3.8vi;
+}
+.txt21 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-light";
+    font-size: 1.2vi;
+    margin-left: 6.5vi;
+    margin-top: 43.9vi;
+}
+.txt22 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-light";
+    font-size: 1.2vi;
+    margin-left: 21vi;
+    margin-top: 43.9vi;
+}
+.txt23 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-light";
+    font-size: 1.2vi;
+    margin-left: 33.8vi;
+    margin-top: 43.9vi;
+}
+.txt24 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-light";
+    font-size: 1.2vi;
+    margin-left: 41.3vi;
+    margin-top: 43.9vi;
+}
+.txt25 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-light";
+    font-size: 1.2vi;
+    margin-left: 53vi;
+    margin-top: 43.9vi;
+}
+.txt26 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-light";
+    font-size: 1.2vi;
+    margin-left: 63.8vi;
+    margin-top: 43.9vi;
+}
+.txt27 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-light";
+    font-size: 1.2vi;
+    margin-left: 71vi;
+    margin-top: 43.9vi;
+}
+.txt28 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-light";
+    font-size: 1.2vi;
+    margin-left: 79.5vi;
+    margin-top: 43.9vi;
+}
+.txt29 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-light";
+    font-size: 1.2vi;
+    margin-left: 87.8vi;
+    margin-top: 43.9vi;
+}
+.barra {
+    position: absolute;
+    display: flex;
+    width: 2vi;
+    margin-left: 93.7vi;
+    margin-top: 43.7vi;
+}
+.circulo {
+    position: absolute;
+    display: flex;
+    border-color: #999999;
+    border-width: 0.4vi;
+    border-style: solid;
+    border-radius: 50%;
+    width: 2.4vi;
+    height: 2.4vi;
+    margin-left: 78.8vi;
+    margin-top: 42.9vi; 
+}
+.boton1 {
+    position: fixed;
+    display: flex;
+    width: 20.4vi;
+    height: 4vi;
+    background-color: #dddddd;
+    border-radius: 2vi;
+    border-color: #868686;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 48.5vi;
+    margin-left: 28.9vi;
+}
+.cancel {
+    position: fixed;
+    display: flex;
+    font-size: 1.7vi;
+    font-family: "myriadpro-regular";
+    margin-left: 36vi;
+    margin-top: 49.5vi;
+}
+.boton2 {
+    position: fixed;
+    display: flex;
+    width: 20.4vi;
+    height: 4vi;
+    background-color: #FF7221;
+    border-radius: 2vi;
+    border-color: #ffffff;
+    border-width: 0px;
+    border-style: solid;
+    margin-top: 48.5vi;
+    margin-left: 50.9vi;
+}
+.save {
+    position: fixed;
+    display: flex;
+    font-size: 1.7vi;
+    font-family: "myriadpro-regular";
+    color: #ffffff;
+    margin-left: 55vi;
+    margin-top: 49.5vi;
+}
+.linea {
+    position: fixed;
+    display: flex;
+    width: 8.5vi;
+    height: 0.3vi;
+    background-color: #FF7221;
+    margin-top: 3.7vi;
+    margin-left: 8.5vi;
+}
