@@ -1,0 +1,45 @@
+    <div class="bar">
+        <img src="media/kario sin kairo@2x.png" class="icons main-icon">
+    </div>
+    <section class="main-bar">
+        
+        <div class="box-1">
+            
+            <a href="add.html" style="text-decoration:none"><div class="im-a-link">
+                <img src="media/Group 3@2x.png" class="icon add-icon">
+                <p class="bar-icons add">Añadir</p>
+            </div></a>
+
+            <a href="main.html" style="text-decoration:none"><div class="im-a-link">
+                <img src="media/Icon open-reload@2x.png" class="icon reload-icon">
+                <p class="bar-icons reload">Refrescar</p>
+            </div></a>
+
+            <a href="delete.html" style="text-decoration:none"><div class="im-a-link">
+                <img src="media/Icon material-delete-forever@2x.png" class="icon delete-icon">
+                <p class="bar-icons delete">Eliminar</p>
+            </div></a>
+        
+        </div>
+        <div class="box-2">
+
+            <a href="report.html" style="text-decoration:none"><div class="im-a-link">
+                <img src="media/Icon material-bug-report@2x.png" class="icon report-icon">
+                <p class="bar-icons report">Reportar</p>
+            </div></a>
+
+
+            <a href="help.html" style="text-decoration:none"><div class="im-a-link">
+                <img src="media/Icon ionic-ios-help-circle@2x.png" class="icon help-icon">
+                <p class="bar-icons help">Ayuda</p>
+            </div></a>
+            
+        </div>
+
+        <div>
+            <img src="media/pfp.jpeg" class="other1 im-a-link">
+            <img src="media/Icon material-notifications-active@2x.png" class="other2 im-a-link">
+            <img src="media/Icon ionic-ios-settings@2x.png" class="other3 im-a-link">
+            
+        </div>
+    </section>
