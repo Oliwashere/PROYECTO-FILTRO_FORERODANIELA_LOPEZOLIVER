@@ -1,0 +1,138 @@
+----------------------------------------------------------------------------------------------
+
+HTML
+
+----------------------------------------------------------------------------------------------
+  
+    <details class="perf">
+                 <summary></summary>
+                 <div class="marcoperf"></div>
+                 <img src="/media/pfp.jpeg" class="pfp2">
+                 <txt class="txtperf1">¡Hola, Pedro!</txt>
+                 <div class="marcoperf2"></div>
+                 <txt class="txtperf2">Gestionar tu cuenta</txt>
+                 <div class="marcoperf3"></div>
+                 <img src="/media/salida-de-emergencia.png" class="salid">
+                 <a href="login.html">
+                     <div class="txtperf3">
+                        <p>Cerrar sesión                 </p>
+                    </div>
+                 </a>
+                    <txt class="txtperf4">Política de privacidad ° Términos de servicio</txt>
+             </details>
+
+----------------------------------------------------------------------------------------------
+
+CSS
+
+----------------------------------------------------------------------------------------------
+
+.perf {
+    position: fixed;
+    display: flex;
+    margin-left: 20vi;
+}
+summary {
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    border-width: 1px;
+    border-radius: 2vi;
+    border-style: solid;    
+    width: 2.6vi;
+    height: 2.6vi;
+    margin-left: 76.2vi;
+    margin-top: 1vi;
+}
+.marcoperf {
+    position: fixed;
+    display: flex;
+    width: 22.2vi;
+    height: 28.2vi;
+    background-color: #fcfcfc;
+    border-color: #868686;
+    border-width: 1px;
+    border-radius: 2vi;
+    border-style: solid;
+    margin-left: 56vi;
+    margin-top: 5vi;
+}
+.txtperf1 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-semibold";
+    font-size: 2.2vi;
+    margin-left: 61.5vi;
+    margin-top: 17.7vi;
+}
+.txtperf2 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-light";
+    font-size: 1.5vi;
+    margin-left: 61.6vi;
+    margin-top: 21.7vi;
+}
+.marcoperf2 {
+    position: fixed;
+    display: flex;
+    width: 15vi;
+    height: 2.8vi;
+    background-color: #fcfcfc;
+    border-color: #868686;
+    border-width: 1px;
+    border-radius: 2vi;
+    border-style: solid;
+    margin-left: 60vi;
+    margin-top: 21.2vi;
+}
+.txtperf3 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-regular";
+    font-size: 1.5vi;
+    color: #ffffff;
+    margin-left: 62.2vi;
+    margin-top: 23.9vi;
+}
+.marcoperf3 {
+    position: fixed;
+    display: flex;
+    width: 15vi;
+    height: 2.8vi;
+    background-color: #FF7221;
+    border-color: #ffffff;
+    border-width: 1px;
+    border-radius: 2vi;
+    border-style: solid;
+    margin-left: 60vi;
+    margin-top: 24.8vi;
+}
+.salid {
+    position: fixed;
+    display: flex;
+    width: 1.8vi;
+    margin-left: 72vi;
+    margin-top: 25.3vi;
+}
+.txtperf4 {
+    position: fixed;
+    display: flex;
+    font-family: "myriadpro-light";
+    font-size: 1vi;
+    color: #000000;
+    margin-left: 58.5vi;
+    margin-top: 30.8vi;
+}
+.pfp2 {
+    position: fixed;
+    display: flex;
+    width: 8.6vi;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.1vi;
+    margin-left: 63vi;
+    margin-top: 8vi;
+}
+
+----------------------------------------------------------------------------------------------
