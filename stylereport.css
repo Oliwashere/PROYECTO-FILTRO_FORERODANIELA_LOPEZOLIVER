@@ -31,118 +31,267 @@ html{
     left: 0vi;
     top: 0vi;
 }
-.line {
-    position: fixed;
-    display: flex;
-    width: 100vi;
-    height: 0.1vi;
-    background-color: #000000;
-    border-width: 1vi;
-    margin-top: 4.3vi;
+.icon{
+    width: 1.5vi;
 }
-.addlogo {
-    position: fixed;
+
+.bar{
+    position: absolute;
+    margin: 0;
+    padding: 1vi 0; 
+    top:0;
     display: flex;
-    width: 1.7vi;
-    margin-left: 9.7vi;
-    margin-top: 1.7vi;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    justify-content:center;
+    text-align: center;
+    height: 2.2vi;
+    width: 100%;
+    border-bottom: 0.1vi solid #0000009a;
+    position: absolute;
+    right: 0;
 }
-.add {
-    position: fixed;
-    display: flex;
-    font-family: "myriadpro-semibold";
-    font-size: 1.2vi;
-    margin-left: 12vi;
-    margin-top: 1.8vi;
-}
-.refreshlogo {
-    position: fixed;
-    display: flex;
+
+.main-bar{
+    position: absolute;
+    font-family: myriadpro-regular;
+    font-size: 1vi;
+    font-weight: 600;
+    margin: 0;
+    padding: 0vi;
+    top:0;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    justify-content:center;
+    text-align: center;
+    height: 3.3vi;
+    width: 100%;} /*Dejar esto quieto*/
+
+/*Iconos L*/
+.box-1{
+    top: 0;
+    display: grid;
+    text-align: left;
+    position:absolute;
+    margin: 0;
+    padding: 0.8vi;
+    width: 36vi;
+    left: 5vi;
+    height: 2.5vi;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 8vi;
+    grid-row-gap: 0vi;
+    padding-left: 2vi;}
+
+.add{
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    position: absolute;
+    margin-left: 2vi;
+    }
+.add-icon{
+    display: inline-block;
+    position: absolute;
+    top:1.5vi}
+
+.reload{
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    position: absolute;
+    margin-left: 2vi;}
+.reload-icon{
+    display: inline-block;
+    position: absolute;
+    top:1.5vi}
+
+.delete{
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    position: absolute;
+    margin-left: 2vi;}
+.delete-icon{
+    display: inline-block;
+    position: absolute;
+    top:1.2vi}
+
+/*Iconos R*/
+.box-2{
+    top: 0;
+    display: grid;
+    text-align: left;
+    position:absolute;
+    margin: 0;
+    padding: 1vi;
+    width: 22vi;
+    right: 13vi;
+    height: 2.5vi;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 9vi;
+    grid-row-gap: 0vi;
+    padding-left: 3vi;}
+
+.report{
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    position: absolute;
+    top: 0.8vi;
+    margin-left: 2vi;}
+.report-icon{
+    display: inline-block;
+    position: absolute;
+    top:1.4vi}
+
+.help{
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    position: absolute;
+    top: 0.8vi;
+    margin-left: 2vi;}
+.help-icon{
+    display: inline-block;
+    position: absolute;
+    top:1.4vi}
+
+/*Config, notif, pfp*/
+
+.im-a-link{
+    cursor: pointer;}
+
+.other1{
+    width: 2.5vi;
+    top: 0.8vi;
+    position: absolute;
+    right: 1vi;
+    border-radius: 10vi;
+    border: 0.1vi solid #636363;}
+
+.other2{
     width: 1.4vi;
-    margin-left: 22vi;
-    margin-top: 1.7vi;
+    top: 1.5vi;
+    position: absolute;
+    right: 4.5vi;}
+
+.other3{
+    top: 1.5vi;
+    position: absolute;
+    right: 7vi;
+    width: 1.4vi;
 }
-.refresh {
+.perf {
+    position: fixed;
+    display: flex;
+    margin-left: 20vi;
+}
+summary {
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    border-width: 1px;
+    border-radius: 2vi;
+    border-style: solid;    
+    width: 2.5vi;
+    height: 2.5vi;
+    margin-left: 76.4vi;
+    margin-top: 0.8vi;
+}
+.marcoperf {
+    position: fixed;
+    display: flex;
+    width: 22.2vi;
+    height: 28.2vi;
+    background-color: #fcfcfc;
+    border-color: #868686;
+    border-width: 1px;
+    border-radius: 2vi;
+    border-style: solid;
+    margin-left: 56vi;
+    margin-top: 5vi;
+}
+.txtperf1 {
     position: fixed;
     display: flex;
     font-family: "myriadpro-semibold";
-    font-size: 1.2vi;
-    margin-left: 23.8vi;
-    margin-top: 1.8vi;
+    font-size: 2.2vi;
+    margin-left: 61.5vi;
+    margin-top: 17.7vi;
 }
-.deletelogo {
+.txtperf2 {
     position: fixed;
     display: flex;
-    width: 1.3vi;
-    margin-left: 35vi;
-    margin-top: 1.7vi;
+    font-family: "myriadpro-light";
+    font-size: 1.5vi;
+    margin-left: 61.6vi;
+    margin-top: 21.7vi;
 }
-.delete {
+.marcoperf2 {
     position: fixed;
     display: flex;
-    font-family: "myriadpro-semibold";
-    font-size: 1.2vi;
-    margin-left: 36.8vi;
-    margin-top: 1.8vi;
+    width: 15vi;
+    height: 2.8vi;
+    background-color: #fcfcfc;
+    border-color: #868686;
+    border-width: 1px;
+    border-radius: 2vi;
+    border-style: solid;
+    margin-left: 60vi;
+    margin-top: 21.2vi;
 }
-.kairologo {
+.txtperf3 {
     position: fixed;
     display: flex;
-    width: 2.2vi;
-    margin-left: 49vi;
-    margin-top: 1.4vi;
+    font-family: "myriadpro-regular";
+    font-size: 1.5vi;
+    color: #ffffff;
+    margin-left: 62.2vi;
+    margin-top: 23.9vi;
 }
-.reportlogo {
+.marcoperf3 {
+    position: fixed;
+    display: flex;
+    width: 15vi;
+    height: 2.8vi;
+    background-color: #FF7221;
+    border-color: #ffffff;
+    border-width: 1px;
+    border-radius: 2vi;
+    border-style: solid;
+    margin-left: 60vi;
+    margin-top: 24.8vi;
+}
+.salid {
     position: fixed;
     display: flex;
     width: 1.8vi;
-    margin-left: 63.5vi;
-    margin-top: 1.4vi;
+    margin-left: 72vi;
+    margin-top: 25.3vi;
 }
-.report {
+.txtperf4 {
     position: fixed;
     display: flex;
-    font-family: "myriadpro-semibold";
-    font-size: 1.2vi;
-    margin-left: 65.9vi;
-    margin-top: 1.7vi;
+    font-family: "myriadpro-light";
+    font-size: 1vi;
+    color: #000000;
+    margin-left: 58.5vi;
+    margin-top: 30.8vi;
 }
-.helplogo {
+.pfp2 {
     position: fixed;
     display: flex;
-    width: 1.8vi;
-    margin-left: 77.5vi;
-    margin-top: 1.5vi;
+    width: 8.6vi;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 0.1vi;
+    margin-left: 63vi;
+    margin-top: 8vi;
 }
-.help {
-    position: fixed;
-    display: flex;
-    font-family: "myriadpro-semibold";
-    font-size: 1.2vi;
-    margin-left: 80vi;
-    margin-top: 1.7vi;
-}
-.settings {
-    position: fixed;
-    display: flex;
-    width: 1vi;
-    margin-left: 92.1vi;
-    margin-top: 1.9vi;
-}
-.notif {
-    position: fixed;
-    display: flex;
-    width: 1.1vi;
-    margin-left: 94.1vi;
-    margin-top: 1.9vi;
-}
-.pfp {
-    position: fixed;
-    display: flex;
-    width: 2.6vi;
-    margin-left: 96.2vi;
-    margin-top: 1vi;
-}
+
 .txt1 {
     position: fixed;
     display: flex;

@@ -39,10 +39,10 @@ summary {
     border-width: 1px;
     border-radius: 2vi;
     border-style: solid;    
-    width: 2.6vi;
-    height: 2.6vi;
-    margin-left: 76.2vi;
-    margin-top: 1vi;
+    width: 2.5vi;
+    height: 2.5vi;
+    margin-left: 76.4vi;
+    margin-top: 0.8vi;
 }
 .marcoperf {
     position: fixed;
@@ -133,6 +133,6 @@ summary {
     border-width: 0.1vi;
     margin-left: 63vi;
     margin-top: 8vi;
-}
+}        
 
 ----------------------------------------------------------------------------------------------
