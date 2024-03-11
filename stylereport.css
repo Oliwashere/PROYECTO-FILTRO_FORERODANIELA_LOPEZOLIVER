@@ -102,10 +102,11 @@ html{
     display: inline-block;
     position: absolute;
     margin-left: 2vi;}
+
 .reload-icon{
     display: inline-block;
     position: absolute;
-    top:-2.8vi}
+    top:1.4vi}
 
 .delete{
     text-decoration: none;
@@ -161,7 +162,7 @@ html{
 .help-icon{
     display: inline-block;
     position: absolute;
-    top:-2.8vi}
+    top:1.4vi}
 
 /*Config, notif, pfp*/
 
