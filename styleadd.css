@@ -105,7 +105,7 @@ html{
 .reload-icon{
     display: inline-block;
     position: absolute;
-    top:1.5vi}
+    top:-2.8vi}
 
 .delete{
     text-decoration: none;
@@ -116,6 +116,7 @@ html{
 .delete-icon{
     display: inline-block;
     position: absolute;
+    width: 2vi;
     top:1.2vi}
 
 /*Iconos R*/
@@ -145,7 +146,10 @@ html{
 .report-icon{
     display: inline-block;
     position: absolute;
-    top:1.4vi}
+    width: 2vi;
+    top:1.2vi;
+    left: 2.6vi
+}
 
 .help{
     text-decoration: none;
@@ -157,7 +161,7 @@ html{
 .help-icon{
     display: inline-block;
     position: absolute;
-    top:1.4vi}
+    top:-2.8vi}
 
 /*Config, notif, pfp*/
 
@@ -173,8 +177,8 @@ html{
     border: 0.1vi solid #636363;}
 
 .other2{
-    width: 1.4vi;
-    top: 1.5vi;
+    width: 1.2vi;
+    top: -2.9vi;
     position: absolute;
     right: 4.5vi;}
 
