@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Percent 25%</title>
+</head>
+<body>
+    <style>
+        @font-face {
+            font-family: "myriadpro-regular";
+            src: url(../media/font/MYRIADPRO-REGULAR.woff);
+        }
+        html{
+            font-family: myriadpro-regular;
+            background-color: transparent;
+        }
+        .circle-wrap {
+            margin: 7.5vi auto;
+            width: 7.5vi;
+            height: 7.5vi;
+            background: transparent;
+            border-radius: 50vi;
+            border: transparent;
+            }
+
+        .circle-wrap .circle .mask,
+        .circle-wrap .circle .fill {
+            width: 7.5vi;
+            height: 7.5vi;
+            position: absolute;
+            border-radius: 50%;
+            }
+
+        .circle-wrap .circle .mask {
+            clip: rect(0vi, 7.5vi, 7.5vi, 3.8vi);
+            }
+
+        .circle-wrap .inside-circle {
+            font-family: myriadpro-regular;
+            width: 6.1vi;
+            height: 6.1vi;
+            border-radius: 50%;
+            background: #ffffff;
+            line-height: 6.5vi;
+            text-align: center;
+            margin-top: 0.7vi;
+            margin-left: 0.7vi;
+            color: #000000;
+            position: absolute;
+            z-index: 100;
+            font-weight: 700;
+            font-size: 1.7vi;
+            }
+
+            /* color animation */
+
+            /* 3rd progress bar */
+        .mask .fill {
+            clip: rect(0vi, 3.78vi, 7.57vi, 0vi);
+            background-color: #ff1919;
+
+            }
+
+        .mask.full,
+        .circle .fill {
+            animation: fill ease-in-out 3s;
+            transform: rotate(45deg);
+            }
+
+            @keyframes fill{
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(45deg);
+            }
+            }
+        </style>
+
+    <div class="circle-wrap">
+        <div class="circle">
+        <div class="mask full">
+            <div class="fill"></div>
+        </div>
+        <div class="mask half">
+            <div class="fill"></div>
+        </div>
+        <div class="inside-circle"> 25% </div>
+        </div>
+    </div>
+
+</body>
+</html>
