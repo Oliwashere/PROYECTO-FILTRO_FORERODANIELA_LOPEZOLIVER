@@ -1,3 +1,6 @@
+ACTUALIZACIÓN DE LA BARRA EN QUERY PARA QUE NO SE VEA TAN PEQUEÑA(CAMBIAR VALORES DEPENDIENDO DE DONDE SE
+HARÁN PRUEBAS EN MÓVIL)
+
 @font-face {
     font-family: "myriadpro-regular";
     src: url(media/font/MYRIADPRO-REGULAR.woff);
@@ -185,3 +188,181 @@ html, body{
     right: 7vi;
     width: 1.4vi;
 }
+
+
+@media (max-width:720px) and (max-width:1600px){
+    
+    html, body{
+    font-family: myriadpro-regular;
+    background-color: #ffffff;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;}
+
+    .icon{
+        width: 4vi;}
+    .bar{
+        position: absolute;
+        margin: 0;
+        padding: 1vi 0; 
+        top:0;
+        display: flex;
+        grid-template-columns:repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        justify-content:center;
+        text-align: center;
+        height: 5.8vi;
+        width: 100%;
+        border-bottom: 0.1vi solid #0000009a;
+        position: absolute;
+        right: 0;}
+
+    .main-bar{
+        position: absolute;
+        font-family: myriadpro-regular;
+        font-size: 1vi;
+        font-weight: 600;
+        margin: 0;
+        padding: 0vi;
+        top:0;
+        display: grid;
+        grid-template-columns:repeat(3, 1fr);
+        justify-content:center;
+        text-align: center;
+        height: 3.5vi;
+        width: 100%;}
+
+
+    /*Iconos L*/
+    .box-1{
+        top: 0;
+        display: grid;
+        text-align: left;
+        position:absolute;
+        margin: 0;
+        padding: 0.8vi;
+        width: 32vi;
+        left: 5.5vi;
+        height:5vi;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 8vi;
+        grid-row-gap: 0vi;
+        padding-left: 2vi;}
+
+    .add{
+        text-decoration: none;
+        color: #000000;
+        display: inline-block;
+        position: absolute;
+        margin-left: 2vi;
+        display: none;}
+    .add-icon{
+        display: inline-block;
+        position: absolute;
+        width: 4.2vi;
+        top:1.5vi;
+    }
+
+    .reload{
+        text-decoration: none;
+        color: #000000;
+        display: inline-block;
+        position: absolute;
+        margin-left: 2vi;
+        display: none;}
+    .reload-icon{
+        display: inline-block;
+        position: absolute;
+        width: 4.2vi;
+        top:1.4vi}
+
+    .delete{
+        text-decoration: none;
+        color: #000000;
+        display: inline-block;
+        position: absolute;
+        margin-left: 2vi;
+        display: none;}
+    .delete-icon{
+        display: inline-block;
+        position: absolute;
+        width: 6vi;
+        top:0.5vi}
+
+    /*Iconos R*/
+    .box-2{
+        top: 0;
+        display: grid;
+        text-align: left;
+        position:absolute;
+        margin: 0;
+        padding: 1vi;
+        width: 19vi;
+        right: 20vi;
+        height: 5vi;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 10vi;
+        grid-row-gap: 0vi;
+        padding-left: 3vi;}
+
+    .report{
+        text-decoration: none;
+        color: #000000;
+        display: inline-block;
+        position: absolute;
+        top: 0.8vi;
+        margin-left: 2vi;
+        display: none;}
+    .report-icon{
+        display: inline-block;
+        position: absolute;
+        width: 5.5vi;
+        top:0.5vi;
+        left: 2.6vi}
+
+    .help{
+        text-decoration: none;
+        color: #000000;
+        display: inline-block;
+        position: absolute;
+        top: 0.8vi;
+        margin-left: 2vi;
+        display: none;}
+    .help-icon{
+        display: inline-block;
+        position: absolute;
+        top:1vi;
+        width: 4.5vi;}
+/*yippee*/
+
+
+/*Config, notif, pfp*/
+
+    .im-a-link{
+        cursor: pointer;}
+
+    .other1{
+        width: 5vi;
+        top: 0.8vi;
+        position: absolute;
+        right: 1vi;
+        border-radius: 10vi;
+        border: 0.1vi solid #636363;}
+
+    .other2{
+        width: 3vi;
+        top: 1.6vi;
+        position: absolute;
+        right: 7.5vi;}
+
+    .other3{
+        top: 1.6vi;
+        position: absolute;
+        right: 12vi;
+        width: 3.5vi;}
