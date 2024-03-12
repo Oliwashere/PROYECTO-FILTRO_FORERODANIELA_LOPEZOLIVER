@@ -303,7 +303,7 @@ h1{
     padding: 0;
     width: 60%;
     left: 3vi;
-    top:9vi;
+    top:8vi;
 }
 
 .boxnum1{
@@ -346,7 +346,7 @@ h1{
     padding: 0;
     width: 60%;
     left: 3vi;
-    top:32vi;
+    top:30vi;
 }
 
 .box-space-3{
@@ -358,7 +358,7 @@ h1{
     padding: 0;
     width: 30%;
     right: 3.5vi;
-    top:7vi;
+    top:6vi;
     height: 30vi;
 }
 .help-title{
@@ -381,7 +381,7 @@ h1{
     display: flex ;
     justify-content: center;
     position: absolute;
-    top: 38vi;
+    top: 37vi;
     height: 6.5vi;
     width: 25vi;
     border: transparent;
