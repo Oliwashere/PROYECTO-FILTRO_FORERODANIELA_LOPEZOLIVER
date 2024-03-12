@@ -464,3 +464,253 @@ summary {
     margin-top: 3.7vi;
     margin-left: 35vi;
 }
+
+@media (max-width: 1024px){
+    .boton1 {
+        position: fixed;
+        display: flex;
+        width: 45.4vi;
+        height: 8.5vi;
+        background-color: #dddddd;
+        border-radius: 4vi;
+        border-color: #868686;
+        border-width: 1px;
+        border-style: solid;
+        margin-top: 120.5vi;
+        margin-left: 28vi;
+    }
+    .txt8 {
+        position: fixed;
+        display: flex;
+        font-size: 6vi;
+        font-family: "myriadpro-regular";
+        margin-left: 39vi;
+        margin-top: 121.5vi;
+    }
+    .boton2 {
+        position: fixed;
+        display: flex;
+        width: 45.4vi;
+        height: 8.5vi;
+        background-color: #FF7221;
+        border-radius: 4vi;
+        border-color: #ffffff;
+        border-width: 0px;
+        border-style: solid;
+        margin-top: 104.5vi;
+        margin-left: 28vi;
+    }
+    .txt9 {
+        position: fixed;
+        display: flex;
+        font-size: 5.7vi;
+        font-family: "myriadpro-regular";
+        color: #ffffff;
+        margin-left: 30.2vi;
+        margin-top: 105.5vi;
+    }
+    .marco1 {
+        position: fixed;
+        display: flex;
+        width: 81.2vi;
+        height: 63.2vi;
+        background-color: #ffffff;
+        border-color: #868686;
+        border-width: 1px;
+        border-style: solid;
+        margin-top: 35.5vi;
+        margin-left: 10vi;
+    }
+    .txt3 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-regular";
+        font-size: 5.2vi;
+        margin-left: 12.6vi;
+        margin-top: 40.5vi;
+    }
+    .select {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-regular";
+        border-radius: 2vi;
+        font-size: 2.2vi;
+        width: 75vi;
+        height: 6vi;
+        margin-left: 12.6vi;
+        margin-top: 48vi;
+    }
+    .txt4 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-regular";
+        font-size: 5.2vi;
+        margin-left: 12.6vi;
+        margin-top: 60vi;
+    }
+    .input1 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-regular";
+        border-width: 0.1vi;
+        border-radius: 2vi;
+        font-size: 5.2vi;
+        width: 75vi;
+        height: 6vi;
+        margin-left: 12.6vi;
+        margin-top: 68vi;
+    }
+    .txt5 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-regular";
+        font-size: 5.2vi;
+        margin-left: 12.6vi;
+        margin-top: 80.5vi;
+    }
+    .input2 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-regular";
+        border-width: 0.1vi;
+        border-radius: 2vi;
+        font-size: 5.2vi;
+        width: 75vi;
+        height: 6vi;
+        margin-left: 12.6vi;
+        margin-top: 87.5vi;
+    }
+    .txt6 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-bold";
+        color: #ff0000;
+        font-size: 4.5vi;
+        margin-left: 10.3vi;
+        margin-top: 69.5vi;
+    }
+    .txt7 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-bold";
+        color: #ff0000;
+        font-size: 4.5vi;
+        margin-left: 10.3vi;
+        margin-top: 88.7vi;
+    }
+    .txt1 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-regular";
+        font-size: 7.2vi;
+        margin-left: 20.8vi;
+        margin-top: 15vi;
+    }
+    .deletelogo2 {
+        position: fixed;
+        display: flex;
+        width: 5.2vi;
+        margin-left: 46.5vi;
+        margin-top: 7vi;
+    }
+    .txt2 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-light";
+        font-size: 4.7vi;
+        margin-left: 7.8vi;
+        margin-top: 26.5vi;
+    }
+    .marcoperf {
+        position: fixed;
+        display: flex;
+        width: 38.2vi;
+        height: 58.2vi;
+        background-color: #fcfcfc;
+        border-color: #868686;
+        border-width: 1px;
+        border-radius: 2vi;
+        border-style: solid;
+        margin-left: 40vi;
+        margin-top: 5vi;
+    }
+    .txtperf1 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-semibold";
+        font-size: 5.2vi;
+        margin-left: 45.5vi;
+        margin-top: 27.7vi;
+    }
+    .txtperf2 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-light";
+        font-size: 3.5vi;
+        margin-left: 45.6vi;
+        margin-top: 37.2vi;
+    }
+    .marcoperf2 {
+        position: fixed;
+        display: flex;
+        width: 28.5vi;
+        height: 5.8vi;
+        background-color: #fcfcfc;
+        border-color: #868686;
+        border-width: 1px;
+        border-radius: 3vi;
+        border-style: solid;
+        margin-left: 45vi;
+        margin-top: 36.2vi;
+    }
+    .txtperf3 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-regular";
+        color: #ffffff;
+        font-size: 3.5vi;
+        margin-left: 46vi;
+        margin-top: 42.7vi;
+    }
+    .marcoperf3 {
+        position: fixed;
+        display: flex;
+        width: 28.5vi;
+        height: 5.8vi;
+        background-color: #FF7221;
+        border-color: #ffffff;
+        border-width: 1px;
+        border-radius: 3vi;
+        border-style: solid;
+        margin-left: 45vi;
+        margin-top: 45.2vi;
+    }
+    .salid {
+        position: fixed;
+        display: flex;
+        width: 4.5vi;
+        margin-left: 67vi;
+        margin-top: 45.8vi;
+    }
+    .txtperf4 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-light";
+        font-size: 2vi;
+        color: #000000;
+        margin-left: 41.8vi;
+        margin-top: 58.8vi;
+    }
+    .pfp2 {
+        position: fixed;
+        display: flex;
+        width: 18.6vi;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: 0.1vi;
+        margin-left: 50.5vi;
+        margin-top: 8vi;
+    }    
+    
+
+}
