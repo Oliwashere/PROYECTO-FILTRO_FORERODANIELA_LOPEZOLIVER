@@ -378,8 +378,10 @@ summary {
 .marco3 {
     position: fixed;
     display: flex;
-    width: 60.2vi;
-    height: 8.2vi;
+    width: 60vi;
+    height: 7vi;
+    padding: 0.5vi;
+    vertical-align: top;
     background-color: #ffffff;
     border-radius: 1vi;
     border-color: #868686;
@@ -387,6 +389,8 @@ summary {
     border-style: solid;
     margin-top: 23.5vi;
     margin-left: 33.9vi;
+    font-size: 2vi;
+    resize: none;
 }
 .boton1 {
     position: fixed;
@@ -546,15 +550,20 @@ summary {
     .marco3 {
         position: fixed;
         display: flex;
-        width: 84.2vi;
-        height: 17.2vi;
+        width: 60vi;
+        height: 12vi;
+        padding: 0.5vi;
+        vertical-align: top;
         background-color: #ffffff;
         border-radius: 1vi;
         border-color: #868686;
         border-width: 1px;
         border-style: solid;
-        margin-top: 75.5vi;
-        margin-left: 7.9vi;
+        top:54.5vi;
+        left: -23vi;
+        font-size: 3vi;
+        resize: none;
+        font-family: "myriadpro-regular";
     }
     .txt4 {
         position: fixed;
