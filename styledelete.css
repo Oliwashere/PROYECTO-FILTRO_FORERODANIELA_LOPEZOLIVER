@@ -201,10 +201,7 @@ html, body{
 summary {
     cursor: pointer;
     position: fixed;
-    display: flex;
-    border-width: 1px;
-    border-radius: 2vi;
-    border-style: solid;    
+    display: flex;   
     width: 2.5vi;
     height: 2.5vi;
     margin-left: 76.4vi;
@@ -476,7 +473,7 @@ summary {
         border-color: #868686;
         border-width: 1px;
         border-style: solid;
-        margin-top: 120.5vi;
+        margin-top: 145.5vi;
         margin-left: 28vi;
     }
     .txt8 {
@@ -485,7 +482,7 @@ summary {
         font-size: 6vi;
         font-family: "myriadpro-regular";
         margin-left: 39vi;
-        margin-top: 121.5vi;
+        margin-top: 145.6vi;
     }
     .boton2 {
         position: fixed;
@@ -497,7 +494,7 @@ summary {
         border-color: #ffffff;
         border-width: 0px;
         border-style: solid;
-        margin-top: 104.5vi;
+        margin-top: 130.5vi;
         margin-left: 28vi;
     }
     .txt9 {
@@ -507,7 +504,7 @@ summary {
         font-family: "myriadpro-regular";
         color: #ffffff;
         margin-left: 30.2vi;
-        margin-top: 105.5vi;
+        margin-top: 130.9vi;
     }
     .marco1 {
         position: fixed;
@@ -518,7 +515,7 @@ summary {
         border-color: #868686;
         border-width: 1px;
         border-style: solid;
-        margin-top: 35.5vi;
+        margin-top: 57vi;
         margin-left: 10vi;
     }
     .txt3 {
@@ -527,7 +524,7 @@ summary {
         font-family: "myriadpro-regular";
         font-size: 5.2vi;
         margin-left: 12.6vi;
-        margin-top: 40.5vi;
+        margin-top: 60.5vi;
     }
     .select {
         position: fixed;
@@ -538,7 +535,7 @@ summary {
         width: 75vi;
         height: 6vi;
         margin-left: 12.6vi;
-        margin-top: 48vi;
+        margin-top: 68vi;
     }
     .txt4 {
         position: fixed;
@@ -546,7 +543,7 @@ summary {
         font-family: "myriadpro-regular";
         font-size: 5.2vi;
         margin-left: 12.6vi;
-        margin-top: 60vi;
+        margin-top: 80vi;
     }
     .input1 {
         position: fixed;
@@ -558,7 +555,7 @@ summary {
         width: 75vi;
         height: 6vi;
         margin-left: 12.6vi;
-        margin-top: 68vi;
+        margin-top: 88vi;
     }
     .txt5 {
         position: fixed;
@@ -566,7 +563,7 @@ summary {
         font-family: "myriadpro-regular";
         font-size: 5.2vi;
         margin-left: 12.6vi;
-        margin-top: 80.5vi;
+        margin-top: 100.5vi;
     }
     .input2 {
         position: fixed;
@@ -578,7 +575,7 @@ summary {
         width: 75vi;
         height: 6vi;
         margin-left: 12.6vi;
-        margin-top: 87.5vi;
+        margin-top: 107.5vi;
     }
     .txt6 {
         position: fixed;
@@ -604,14 +601,14 @@ summary {
         font-family: "myriadpro-regular";
         font-size: 7.2vi;
         margin-left: 20.8vi;
-        margin-top: 15vi;
+        margin-top: 25vi;
     }
     .deletelogo2 {
         position: fixed;
         display: flex;
         width: 5.2vi;
         margin-left: 46.5vi;
-        margin-top: 7vi;
+        margin-top: 13vi;
     }
     .txt2 {
         position: fixed;
@@ -619,7 +616,7 @@ summary {
         font-family: "myriadpro-light";
         font-size: 4.7vi;
         margin-left: 7.8vi;
-        margin-top: 26.5vi;
+        margin-top: 40.5vi;
     }
     .perf {
         position: fixed;
@@ -630,10 +627,7 @@ summary {
         font-family: myriadpro-regular;
         cursor: pointer;
         position: fixed;
-        display: flex;
-        border-width: 1px;
-        border-radius: 2vi;
-        border-style: solid;    
+        display: flex;   
         width: 3.5vi;
         height: 3.5vi;
         margin-left: 75.2vi;
@@ -727,166 +721,187 @@ summary {
             border-width: 0.1vi;
             margin-left: 50.5vi;
             margin-top: 8vi;
-        }    
+        }
+    html, body{
+            font-family: myriadpro-regular;
+            background-color: #ffffff;
+            background-size: cover;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding: 0;
+            margin: 0;}
+        
     .icon{
-        width: 3vi;}
+                width: 4vi;}
     .bar{
-        position: absolute;
-        margin: 0;
-        padding: 1vi 0; 
-        top:0;
-        display: flex;
-        grid-template-columns:repeat(3, 1fr);
-        grid-template-rows: 1fr;
-        justify-content:center;
-        text-align: center;
-        height: 4vi;
-        width: 100%;
-        border-bottom: 0.1vi solid #0000009a;
-        position: absolute;
-        right: 0;}
+                position: absolute;
+                margin: 0;
+                padding: 1vi 0; 
+                top:0;
+                display: flex;
+                grid-template-columns:repeat(3, 1fr);
+                grid-template-rows: 1fr;
+                justify-content:center;
+                text-align: center;
+                height: 5.8vi;
+                width: 100%;
+                border-bottom: 0.1vi solid #0000009a;
+                position: absolute;
+                right: 0;}
+        
     .main-bar{
-        position: absolute;
-        font-family: myriadpro-regular;
-        font-size: 1vi;
-        font-weight: 600;
-        margin: 0;
-        padding: 0vi;
-        top:0;
-        display: grid;
-        grid-template-columns:repeat(3, 1fr);
-        justify-content:center;
-        text-align: center;
-        height: 3.3vi;
-        width: 100%;}
+                position: absolute;
+                font-family: myriadpro-regular;
+                font-size: 1vi;
+                font-weight: 600;
+                margin: 0;
+                padding: 0vi;
+                top:0;
+                display: grid;
+                grid-template-columns:repeat(3, 1fr);
+                justify-content:center;
+                text-align: center;
+                height: 3.5vi;
+                width: 100%;}
+        
+        
+            /*Iconos L*/
     .box-1{
-        top: 0;
-        display: grid;
-        text-align: left;
-        position:absolute;
-        margin: 0;
-        padding: 0.8vi;
-        width: 32vi;
-        left: 5.5vi;
-        height:4vi;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr;
-        grid-column-gap: 9vi;
-        grid-row-gap: 0vi;
-        padding-left: 2vi;}
-
+                top: 0;
+                display: grid;
+                text-align: left;
+                position:absolute;
+                margin: 0;
+                padding: 0.8vi;
+                width: 32vi;
+                left: 5.5vi;
+                height:5vi;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: 1fr;
+                grid-column-gap: 8vi;
+                grid-row-gap: 0vi;
+                padding-left: 2vi;}
+        
     .add{
-        text-decoration: none;
-        color: #000000;
-        display: inline-block;
-        position: absolute;
-        margin-left: 2vi;
-        display: none;}
+                text-decoration: none;
+                color: #000000;
+                display: inline-block;
+                position: absolute;
+                margin-left: 2vi;
+                display: none;}
     .add-icon{
-        display: inline-block;
-        position: absolute;
-        width: 3.5vi;
-        top:1.5vi;
-    }
-
+                display: inline-block;
+                position: absolute;
+                width: 4.2vi;
+                top:1.5vi;
+            }
+        
     .reload{
-        text-decoration: none;
-        color: #000000;
-        display: inline-block;
-        position: absolute;
-        margin-left: 2vi;
-        display: none;}
+                text-decoration: none;
+                color: #000000;
+                display: inline-block;
+                position: absolute;
+                margin-left: 2vi;
+                display: none;}
     .reload-icon{
-        display: inline-block;
-        position: absolute;
-        width: 3.5vi;
-
-        top:1.4vi}
-
+                display: inline-block;
+                position: absolute;
+                width: 4.2vi;
+                top:1.4vi}
+        
     .delete{
-        text-decoration: none;
-        color: #000000;
-        display: inline-block;
-        position: absolute;
-        margin-left: 2vi;
-        display: none;}
+                text-decoration: none;
+                color: #000000;
+                display: inline-block;
+                position: absolute;
+                margin-left: 2vi;
+                display: none;}
     .delete-icon{
-        display: inline-block;
-        position: absolute;
-        width: 5vi;
-        top:0.3vi}
+                display: inline-block;
+                position: absolute;
+                width: 6vi;
+                top:0.5vi}
+        
+            /*Iconos R*/
     .box-2{
-        top: 0;
-        display: grid;
-        text-align: left;
-        position:absolute;
-        margin: 0;
-        padding: 1vi;
-        width: 19vi;
-        right: 18vi;
-        height: 4vi;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 1fr;
-        grid-column-gap: 10vi;
-        grid-row-gap: 0vi;
-        padding-left: 3vi;}
-
+                top: 0;
+                display: grid;
+                text-align: left;
+                position:absolute;
+                margin: 0;
+                padding: 1vi;
+                width: 19vi;
+                right: 20vi;
+                height: 5vi;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: 1fr;
+                grid-column-gap: 10vi;
+                grid-row-gap: 0vi;
+                padding-left: 3vi;}
+        
     .report{
-        text-decoration: none;
-        color: #000000;
-        display: inline-block;
-        position: absolute;
-        top: 0.8vi;
-        margin-left: 2vi;
-        display: none;}
+                text-decoration: none;
+                color: #000000;
+                display: inline-block;
+                position: absolute;
+                top: 0.8vi;
+                margin-left: 2vi;
+                display: none;}
     .report-icon{
-        display: inline-block;
-        position: absolute;
-        width: 4.5vi;
-        top:0.5vi;
-        left: 2.6vi}
-
+                display: inline-block;
+                position: absolute;
+                width: 5.5vi;
+                top:0.5vi;
+                left: 2.6vi}
+        
     .help{
-        text-decoration: none;
-        color: #000000;
-        display: inline-block;
-        position: absolute;
-        top: 0.8vi;
-        margin-left: 2vi;
-        display: none;}
+                text-decoration: none;
+                color: #000000;
+                display: inline-block;
+                position: absolute;
+                top: 0.8vi;
+                margin-left: 2vi;
+                display: none;}
     .help-icon{
-        display: inline-block;
-        position: absolute;
-        top:1vi;
-        width: 4vi;}
+                display: inline-block;
+                position: absolute;
+                top:1vi;
+                width: 4.5vi;}
+        /*yippee*/
+        
+        
+        /*Config, notif, pfp*/
+        
     .im-a-link{
-        cursor: pointer;}
-
+                cursor: pointer;}
+        
     .other1{
-        width: 3.5vi;
-        top: 0.8vi;
-        position: absolute;
-        right: 1vi;
-        border-radius: 10vi;
-        border: 0.1vi solid #636363;}
-
+                width: 5vi;
+                top: 0.8vi;
+                position: absolute;
+                right: 1vi;
+                border-radius: 10vi;
+                border: 0.1vi solid #636363;}
+        
     .other2{
-        width: 2vi;
-        top: 1.5vi;
-        position: absolute;
-        right: 6.5vi;}
-    
-     .other3{
-        top: 1.5vi;
-        position: absolute;
-        right: 10vi;
-        width: 2.5vi;}
+                width: 3vi;
+                top: 1.6vi;
+                position: absolute;
+                right: 7.5vi;}
+        
+    .other3{
+                top: 1.6vi;
+                position: absolute;
+                right: 12vi;
+                width: 3.5vi;}       
     .linea {
         position: fixed;
         display: flex;
         width: 8.5vi;
         height: 0.3vi;
         background-color: #FF7221;
-        margin-top: 5.5vi;
+        margin-top: 7vi;
         margin-left: 33vi;}
 }
