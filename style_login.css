@@ -136,11 +136,12 @@ html, body{
     padding: 0vi 1vi;
     width:33vi;
     height: 2.6vi;
+    font-size: 1.2vi;
     border: 0.1vi solid #979797;}
 
 .enter-button{
     margin-top: 1.3vi;
-    font-size: 1vi;
+    font-size: 1.5vi;
     font-family: 'Myriad Pro Light';
     font-weight: 100;
     color: #ffffff;
@@ -164,7 +165,7 @@ html, body{
 
 /**/
 
-@media (max-width:1024px){
+@media (max-width:430px),(max-height:932px){
      
 html{
     background-image: url("media/pexels-pixabay-159400@2x.png");
@@ -200,7 +201,7 @@ html, body{
     opacity: 0%;
     position:absolute;
     z-index: 0;
-    width: 20vi;
+    width: 25vi;
     animation: breath 4s 0s;}
 @keyframes breath {
     0%{
@@ -237,8 +238,8 @@ html, body{
 
 .modal-container{
     position: absolute;
-    width: 59vi;
-    height: 50vi;
+    width: 69vi;
+    height: 90vi;
     border-radius: 3.5vi;
     background-color: #ffffff;
     text-align: center;
@@ -263,54 +264,61 @@ html, body{
         }}
 
 .welcome{
-    font-size: 3.5vi;
+    font-size: 5vi;
     font-weight: 500;
     margin: 0.6vi;}
 .subtitle{
-    font-size: 1.8vi;
+    font-size: 2.8vi;
     font-weight: 100;
-    margin:0.8vi;
-    color: #7a7a7a;
+    margin:1vi;
+    margin-top: 2vi;
+    color: #555555;
     font-family: "Myriad Pro Light";}
 .logomedia{
-    width: 7vi;
+    width: 15vi;
     margin: 0vi;
+    margin-top: 2vi;
+    margin-bottom: 1.5vi;
     cursor: pointer;}
 
 .tag-style{
     display: flex;
-    font-size: 2.3vi;
+    font-size: 3.5vi;
     color: #696969;
     margin: 2vi;
-    margin-left: 4vi;
+    margin-left: 2vi;
     margin-bottom: 0.4vi;
     font-weight: 100;
+    margin-top: 3vi;
     font-family: "Myriad Pro Light";}
 
 .input-style{
+    font-size: 3vi;
     margin-top: 0vi;
     border-radius: 1.5vi;
     padding: 0vi 1vi;
-    width:48vi;
-    height: 3.5vi;
+    width:63vi;
+    height: 5vi;
     border: 0.1vi solid #979797;}
 
 .enter-button{
-    margin-top: 2vi;
-    font-size: 2vi;
+    margin-top: 4vi;
+    font-size: 3vi;
     font-family: 'Myriad Pro Light';
     font-weight: 100;
     color: #ffffff;
     background-color: #ff721b;
-    width: 22vi;
-    height: 5vi;
+    width: 28vi;
+    height: 6vi;
     border: transparent;
     border-radius: 10vi;
     cursor: pointer;}
 
 .contact-us{
-    margin-top: 2vi;
-    font-size: 1.4vi;
+    margin-top: 3.5vi;
+    font-size: 2.3vi;
+    margin-left: 2vi;
+    margin-right: 2vi;
     font-family: 'Myriad Pro Light';
 }
 .contact-us-with:hover{
