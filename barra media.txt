@@ -1,0 +1,268 @@
+.perf {
+        position: fixed;
+        display: flex;
+        margin-left: 20vi;}
+
+    summary {
+        font-family: myriadpro-regular;
+        cursor: pointer;
+        position: fixed;
+        display: flex;
+        border-width: 1px;
+        border-radius: 2vi;
+        border-style: solid;    
+        width: 3.5vi;
+        height: 3.5vi;
+        margin-left: 75.2vi;
+        margin-top: 0.8vi;}
+    .marcoperf {
+            position: fixed;
+            display: flex;
+            width: 38.2vi;
+            height: 56vi;
+            background-color: #fcfcfc;
+            border-color: #868686;
+            border-width: 1px;
+            border-radius: 2vi;
+            border-style: solid;
+            margin-left: 40vi;
+            margin-top: 6.5vi;
+        }
+    .txtperf1 {
+            position: fixed;
+            display: flex;
+            font-family: "myriadpro-semibold";
+            font-size: 5.2vi;
+            margin-left: 45.5vi;
+            margin-top: 27.7vi;
+        }
+    .txtperf2 {
+            position: fixed;
+            display: flex;
+            font-family: "myriadpro-light";
+            font-size: 3.5vi;
+            margin-left: 45.6vi;
+            margin-top: 37.2vi;
+        }
+    .marcoperf2 {
+            position: fixed;
+            display: flex;
+            width: 28.5vi;
+            height: 5.8vi;
+            background-color: #fcfcfc;
+            border-color: #868686;
+            border-width: 1px;
+            border-radius: 3vi;
+            border-style: solid;
+            margin-left: 45vi;
+            margin-top: 36.2vi;
+        }
+    .txtperf3 {
+            position: fixed;
+            display: flex;
+            font-family: "myriadpro-regular";
+            color: #ffffff;
+            font-size: 3.5vi;
+            margin-left: 46vi;
+            margin-top: 42.7vi;
+        }
+    .marcoperf3 {
+            position: fixed;
+            display: flex;
+            width: 28.5vi;
+            height: 5.8vi;
+            background-color: #FF7221;
+            border-color: #ffffff;
+            border-width: 1px;
+            border-radius: 3vi;
+            border-style: solid;
+            margin-left: 45vi;
+            margin-top: 45.2vi;
+        }
+    .salid {
+            position: fixed;
+            display: flex;
+            width: 4.5vi;
+            margin-left: 67vi;
+            margin-top: 45.8vi;
+        }
+    .txtperf4 {
+            position: fixed;
+            display: flex;
+            font-family: "myriadpro-light";
+            font-size: 2vi;
+            color: #000000;
+            margin-left: 41.8vi;
+            margin-top: 58.8vi;
+        }
+    .pfp2 {
+            position: fixed;
+            display: flex;
+            width: 18.6vi;
+            border-radius: 50%;
+            border-style: solid;
+            border-width: 0.1vi;
+            margin-left: 50.5vi;
+            margin-top: 8vi;
+        }    
+    .icon{
+        width: 3vi;}
+    .bar{
+        position: absolute;
+        margin: 0;
+        padding: 1vi 0; 
+        top:0;
+        display: flex;
+        grid-template-columns:repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        justify-content:center;
+        text-align: center;
+        height: 4vi;
+        width: 100%;
+        border-bottom: 0.1vi solid #0000009a;
+        position: absolute;
+        right: 0;}
+    .main-bar{
+        position: absolute;
+        font-family: myriadpro-regular;
+        font-size: 1vi;
+        font-weight: 600;
+        margin: 0;
+        padding: 0vi;
+        top:0;
+        display: grid;
+        grid-template-columns:repeat(3, 1fr);
+        justify-content:center;
+        text-align: center;
+        height: 3.3vi;
+        width: 100%;}
+    .box-1{
+        top: 0;
+        display: grid;
+        text-align: left;
+        position:absolute;
+        margin: 0;
+        padding: 0.8vi;
+        width: 32vi;
+        left: 5.5vi;
+        height:4vi;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 9vi;
+        grid-row-gap: 0vi;
+        padding-left: 2vi;}
+
+    .add{
+        text-decoration: none;
+        color: #000000;
+        display: inline-block;
+        position: absolute;
+        margin-left: 2vi;
+        display: none;}
+    .add-icon{
+        display: inline-block;
+        position: absolute;
+        width: 3.5vi;
+        top:1.5vi;
+    }
+
+    .reload{
+        text-decoration: none;
+        color: #000000;
+        display: inline-block;
+        position: absolute;
+        margin-left: 2vi;
+        display: none;}
+    .reload-icon{
+        display: inline-block;
+        position: absolute;
+        width: 3.5vi;
+
+        top:1.4vi}
+
+    .delete{
+        text-decoration: none;
+        color: #000000;
+        display: inline-block;
+        position: absolute;
+        margin-left: 2vi;
+        display: none;}
+    .delete-icon{
+        display: inline-block;
+        position: absolute;
+        width: 5vi;
+        top:0.3vi}
+    .box-2{
+        top: 0;
+        display: grid;
+        text-align: left;
+        position:absolute;
+        margin: 0;
+        padding: 1vi;
+        width: 19vi;
+        right: 18vi;
+        height: 4vi;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 10vi;
+        grid-row-gap: 0vi;
+        padding-left: 3vi;}
+
+    .report{
+        text-decoration: none;
+        color: #000000;
+        display: inline-block;
+        position: absolute;
+        top: 0.8vi;
+        margin-left: 2vi;
+        display: none;}
+    .report-icon{
+        display: inline-block;
+        position: absolute;
+        width: 4.5vi;
+        top:0.5vi;
+        left: 2.6vi}
+
+    .help{
+        text-decoration: none;
+        color: #000000;
+        display: inline-block;
+        position: absolute;
+        top: 0.8vi;
+        margin-left: 2vi;
+        display: none;}
+    .help-icon{
+        display: inline-block;
+        position: absolute;
+        top:1vi;
+        width: 4vi;}
+    .im-a-link{
+        cursor: pointer;}
+
+    .other1{
+        width: 3.5vi;
+        top: 0.8vi;
+        position: absolute;
+        right: 1vi;
+        border-radius: 10vi;
+        border: 0.1vi solid #636363;}
+
+    .other2{
+        width: 2vi;
+        top: 1.5vi;
+        position: absolute;
+        right: 6.5vi;}
+    
+     .other3{
+        top: 1.5vi;
+        position: absolute;
+        right: 10vi;
+        width: 2.5vi;}
+    .linea {
+        position: fixed;
+        display: flex;
+        width: 8.5vi;
+        height: 0.3vi;
+        background-color: #FF7221;
+        margin-top: 5.5vi;
+        margin-left: 59.8vi;}
