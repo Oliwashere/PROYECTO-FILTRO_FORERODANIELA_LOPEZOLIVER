@@ -1,21 +1,18 @@
 @font-face {
     font-family: "myriadpro-regular";
-    src: url(media/font/MYRIADPRO-REGULAR.woff);
-}
+    src: url(media/font/MYRIADPRO-REGULAR.woff);}
 @font-face {
     font-family: "myriadpro-light";
-    src: url(media/font/MyriadPro-Light.otf);
-}
+    src: url(media/font/MyriadPro-Light.otf);}
 @font-face {
     font-family: "myriadpro-semibold";
-    src: url(media/font/MYRIADPRO-SEMIBOLD.OTF);
-}
+    src: url(media/font/MYRIADPRO-SEMIBOLD.OTF);}
 @font-face {
     font-family: "myriadpro-bold";
-    src: url(media/font/MYRIADPRO-BOLD.OTF);
-}
+    src: url(media/font/MYRIADPRO-BOLD.OTF);}
 
 html, body{
+    font-family: myriadpro-regular;
     background-color: #ffffff;
     background-size: cover;
     height: 100%;
@@ -24,13 +21,11 @@ html, body{
     display: flex;
     text-align: center;
     padding: 0;
-    margin: 0;
-}
+    margin: 0;}
+
 
 .icon{
-    width: 1.5vi;
-}
-
+    width: 1.5vi;}
 .bar{
     position: absolute;
     margin: 0;
@@ -45,9 +40,7 @@ html, body{
     width: 100%;
     border-bottom: 0.1vi solid #0000009a;
     position: absolute;
-    right: 0;
-}
-
+    right: 0;}
 .main-bar{
     position: absolute;
     font-family: myriadpro-regular;
@@ -85,8 +78,7 @@ html, body{
     color: #000000;
     display: inline-block;
     position: absolute;
-    margin-left: 2vi;
-    }
+    margin-left: 2vi;    }
 .add-icon{
     display: inline-block;
     position: absolute;
@@ -98,7 +90,6 @@ html, body{
     display: inline-block;
     position: absolute;
     margin-left: 2vi;}
-
 .reload-icon{
     display: inline-block;
     position: absolute;
@@ -145,8 +136,7 @@ html, body{
     position: absolute;
     width: 2vi;
     top:1.2vi;
-    left: 2.6vi
-}
+    left: 2.6vi}
 
 .help{
     text-decoration: none;
@@ -183,8 +173,7 @@ html, body{
     top: 1.5vi;
     position: absolute;
     right: 7vi;
-    width: 1.4vi;
-}
+    width: 1.4vi;}
 .linea {
     position: fixed;
     display: flex;
@@ -192,14 +181,13 @@ html, body{
     height: 0.3vi;
     background-color: #FF7221;
     margin-top: 3.7vi;
-    margin-left: 77.9vi;
-}
+    margin-left: 77.9vi;}
 .perf {
     position: fixed;
     display: flex;
-    margin-left: 20vi;
-}
+    margin-left: 20vi;}
 summary {
+    font-family: myriadpro-regular;
     cursor: pointer;
     position: fixed;
     display: flex;
@@ -209,8 +197,7 @@ summary {
     width: 2.5vi;
     height: 2.5vi;
     margin-left: 76.4vi;
-    margin-top: 0.8vi;
-}
+    margin-top: 0.8vi;}
 .marcoperf {
     position: fixed;
     display: flex;
@@ -222,24 +209,21 @@ summary {
     border-radius: 2vi;
     border-style: solid;
     margin-left: 56vi;
-    margin-top: 5vi;
-}
+    margin-top: 5vi;}
 .txtperf1 {
     position: fixed;
     display: flex;
     font-family: "myriadpro-semibold";
     font-size: 2.2vi;
     margin-left: 61.5vi;
-    margin-top: 17.7vi;
-}
+    margin-top: 17.7vi;}
 .txtperf2 {
     position: fixed;
     display: flex;
     font-family: "myriadpro-light";
     font-size: 1.5vi;
     margin-left: 61.6vi;
-    margin-top: 21.7vi;
-}
+    margin-top: 21.7vi;}
 .marcoperf2 {
     position: fixed;
     display: flex;
@@ -251,8 +235,7 @@ summary {
     border-radius: 2vi;
     border-style: solid;
     margin-left: 60vi;
-    margin-top: 21.2vi;
-}
+    margin-top: 21.2vi;}
 .txtperf3 {
     position: fixed;
     display: flex;
@@ -260,8 +243,7 @@ summary {
     font-size: 1.5vi;
     color: #ffffff;
     margin-left: 62.2vi;
-    margin-top: 23.9vi;
-}
+    margin-top: 23.9vi;}
 .marcoperf3 {
     position: fixed;
     display: flex;
@@ -273,15 +255,13 @@ summary {
     border-radius: 2vi;
     border-style: solid;
     margin-left: 60vi;
-    margin-top: 24.8vi;
-}
+    margin-top: 24.8vi;}
 .salid {
     position: fixed;
     display: flex;
     width: 1.8vi;
     margin-left: 72vi;
-    margin-top: 25.3vi;
-}
+    margin-top: 25.3vi;}
 .txtperf4 {
     position: fixed;
     display: flex;
@@ -289,8 +269,7 @@ summary {
     font-size: 1vi;
     color: #000000;
     margin-left: 58.5vi;
-    margin-top: 30.8vi;
-}
+    margin-top: 30.8vi;}
 .pfp2 {
     position: fixed;
     display: flex;
@@ -299,5 +278,138 @@ summary {
     border-style: solid;
     border-width: 0.1vi;
     margin-left: 63vi;
-    margin-top: 8vi;
-}       
+    margin-top: 8vi;}
+
+/**/
+
+.helping-icon{
+    width: 5vi;
+}
+h1{
+    color: #FF7221;
+    font-size: 1.8vi;
+}
+
+.instructions{
+    font-size: 1vi;
+}
+
+.box-space-1{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    left: 3vi;
+    top:9vi;
+}
+
+.boxnum1{
+    position: relative;
+    width: 22vi;
+    height: 16vi;
+    padding: 1.5vi;
+    padding-top: 1.8vi;
+    border: 0.1vi solid #636363;
+    border-radius: 2vi;
+    margin: 0 2vi;
+}
+.boxnum2{
+    position: relative;
+    width: 22vi;
+    height: 16vi;
+    padding: 1.5vi;
+    padding-top: 1.8vi;
+    border: 0.1vi solid #636363;
+    border-radius: 2vi;
+    margin: 0 2vi;
+}
+.boxnum3{
+    position: relative;
+    width: 22vi;
+    height: 16vi;
+    padding: 1.5vi;
+    padding-top: 1.8vi;
+    border: 0.1vi solid #636363;
+    border-radius: 2vi;
+    margin: 0 2vi;
+}
+
+.box-space-2{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    left: 3vi;
+    top:32vi;
+}
+
+.box-space-3{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    right: 3.5vi;
+    top:7vi;
+    height: 30vi;
+}
+.help-title{
+    color: #000000;
+    position: absolute;
+    font-size: 4vi;
+    left: 12vi;
+    top: 0vi;
+
+}
+.helping-what-icon{
+    position: absolute;
+    right: 20vi;
+    top: 2.7vi;
+}
+
+.contact{
+    margin: 0;
+    padding: 0;
+    display: flex ;
+    justify-content: center;
+    position: absolute;
+    top: 38vi;
+    height: 6.5vi;
+    width: 25vi;
+    border: transparent;
+    border-radius: 3vi;
+    background-color: #FF7221;
+}
+.contact-icon{
+    width: 5vi;
+    margin-top: 0.4vi;
+    margin-left: 0.4vi;
+
+}
+.contact-txt{
+    font-size: 2vi;
+    color: #ffffff;
+    font-family: myriadpro-regular;
+    font-weight: 600;
+}
+
+.help-desc{
+    position: absolute;
+    top: 9vi;
+    font-size: 2vi;
+}
+
+.support-icon{
+    position: absolute;
+    top: 24.8vi;
+    display: block;
+    width: 10vi;
+}
