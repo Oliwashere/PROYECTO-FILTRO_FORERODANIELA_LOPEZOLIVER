@@ -179,9 +179,9 @@ html{
 
 .other2{
     width: 1.2vi;
-    top: -2.9vi;
+    top: 1.4vi;
     position: absolute;
-    right: 4.5vi;}
+    right: 4.6vi;}
 
 .other3{
     top: 1.5vi;
@@ -902,10 +902,11 @@ summary {
         border: 0.1vi solid #636363;}
 
     .other2{
-        width: 2vi;
-        top: 1.5vi;
-        position: absolute;
-        right: 6.5vi;}
+            width: 2vi;
+            top: 1.5vi;
+            position: absolute;
+            right: 6.5vi;}
+    
     
      .other3{
         top: 1.5vi;
