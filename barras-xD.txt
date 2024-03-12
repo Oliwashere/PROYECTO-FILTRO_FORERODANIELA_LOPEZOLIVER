@@ -1,0 +1,164 @@
+.marcoej {
+        position: fixed;
+        display: flex;
+        width: 89.2vi;
+        height: 6.2vi;
+        background-color: #ffffff;
+        border-color: #868686;
+        border-width: 1px;
+        border-radius: 1.7vi;
+        border-style: solid;
+        margin-top: 95.5vi;
+        margin-left: 3.8vi;
+    }
+    .barra {
+        position: absolute;
+        display: flex;
+        width: 4vi;
+        margin-left: 93.9vi;
+        margin-top: 96.8vi;
+    }
+    .txt21 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-light";
+        font-size: 3.2vi;
+        margin-left: 6.5vi;
+        margin-top: 97vi;
+    }
+    .txt22 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-light";
+        font-size: 3.2vi;
+        margin-left: 19vi;
+        margin-top: 97vi;
+    }
+    .txt23 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-light";
+        font-size: 3.2vi;
+        margin-left: 30.8vi;
+        margin-top: 97vi;
+    }
+    .txt24 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-light";
+        font-size: 3.2vi;
+        margin-left: 38.3vi;
+        margin-top: 97vi;
+    }
+    .txt25 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-light";
+        font-size: 3.2vi;
+        margin-left: 51vi;
+         margin-top: 97vi;
+    }
+    .txt26 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-light";
+        font-size: 3.2vi;
+        margin-left: 63.8vi;
+         margin-top: 97vi;
+    }
+    .txt27 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-light";
+        font-size: 3.2vi;
+        margin-left: 71vi;
+         margin-top: 97vi;
+    }
+    .txt28 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-light";
+        font-size: 3.2vi;
+        margin-left: 79.5vi;
+         margin-top: 97vi;
+    }
+    .txt29 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-light";
+        font-size: 3.2vi;
+        margin-left: 87.8vi;
+         margin-top: 97vi;
+    }
+    .txt12 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-regular";
+        font-size: 3.2vi;
+        margin-left: 6.5vi;
+        margin-top: 92vi;
+    }
+    .txt13 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-regular";
+        font-size: 3.2vi;
+        margin-left: 18vi;
+        margin-top: 92vi;
+    }
+    .txt14 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-regular";
+        font-size: 3.2vi;
+        margin-left: 30.3vi;
+        margin-top: 92vi;
+    }
+    .txt15 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-regular";
+        font-size: 3.2vi;
+        margin-left: 41.9vi;
+        margin-top: 92vi;
+    }
+    .txt16 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-regular";
+        font-size: 3.2vi;
+        margin-left: 52.5vi;
+        margin-top: 92vi;
+    }
+    .txt17 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-regular";
+        font-size: 3.2vi;
+        margin-left: 63.8vi;
+        margin-top: 92vi;
+    }
+    .txt18 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-regular";
+        font-size: 3.2vi;
+        margin-left: 70.5vi;
+        margin-top: 92vi;
+    }
+    .txt19 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-regular";
+        font-size: 3.2vi;
+        margin-left: 77.5vi;
+        margin-top: 92vi;
+    }
+    .txt20 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-regular";
+        font-size: 3.2vi;
+        margin-left: 86.8vi;
+        margin-top: 92vi;
+    }
