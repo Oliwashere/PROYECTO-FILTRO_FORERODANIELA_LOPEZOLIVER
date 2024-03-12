@@ -15,7 +15,6 @@
     src: url(/media/font/MYRIADPRO-BOLD.OTF);
 }
 
-
 html{
     background-color: #ffffff;
     background-size: cover;
@@ -1272,7 +1271,7 @@ summary {
         font-family: "myriadpro-regular";
         font-size: 4.7vi;
         margin-left: 25.6vi;
-        margin-top: 32.2vi;
+        margin-top: 33.2vi;
     }
     .input1 {
         position: fixed;
@@ -1284,7 +1283,7 @@ summary {
         width: 48.5vi;
         height: 4.1vi;
         margin-left: 25.6vi;
-        margin-top: 38.5vi;
+        margin-top: 40.5vi;
     }
     .txt4 {
         position: fixed;
@@ -1292,7 +1291,7 @@ summary {
         font-family: "myriadpro-regular";
         font-size: 4.7vi;
         margin-left: 25.6vi;
-        margin-top: 43.2vi;
+        margin-top: 47.2vi;
     }
     .input2 {
         position: fixed;
@@ -1304,7 +1303,7 @@ summary {
         width: 48.5vi;
         height: 4.1vi;
         margin-left: 25.6vi;
-        margin-top: 49.5vi;
+        margin-top: 54.5vi;
     }
     .txt5 {
         position: fixed;
@@ -1312,7 +1311,7 @@ summary {
         font-family: "myriadpro-regular";
         font-size: 4.7vi;
         margin-left: 25.6vi;
-        margin-top: 54.5vi;
+        margin-top: 60.5vi;
     }
     .input3 {
         position: fixed;
@@ -1324,7 +1323,7 @@ summary {
         width: 48.5vi;
         height: 4.1vi;
         margin-left: 25.6vi;
-        margin-top: 60.5vi;
+        margin-top: 67.5vi;
     }
     .txt6 {
         position: fixed;
@@ -1332,7 +1331,7 @@ summary {
         font-family: "myriadpro-regular";
         font-size: 4.7vi;
         margin-left: 25.6vi;
-        margin-top: 32.2vi;
+        margin-top: 79.2vi;
     }
     .input4 {
         position: fixed;
@@ -1344,7 +1343,7 @@ summary {
         width: 48.5vi;
         height: 4.1vi;
         margin-left: 25.6vi;
-        margin-top: 38.5vi;
+        margin-top: 86.5vi;
     }
     .txt7 {
         position: fixed;
@@ -1352,7 +1351,7 @@ summary {
         font-family: "myriadpro-regular";
         font-size: 4.7vi;
         margin-left: 25.6vi;
-        margin-top: 43.2vi;
+        margin-top: 92.2vi;
     }
     .input5 {
         position: fixed;
@@ -1364,7 +1363,7 @@ summary {
         width: 48.5vi;
         height: 4.1vi;
         margin-left: 25.6vi;
-        margin-top: 49.5vi;
+        margin-top: 99.5vi;
     }
     .txt8 {
         position: fixed;
@@ -1372,7 +1371,7 @@ summary {
         font-family: "myriadpro-regular";
         font-size: 4.7vi;
         margin-left: 25.6vi;
-        margin-top: 43.2vi;
+        margin-top: 106.2vi;
     }
     .input6 {
         position: fixed;
@@ -1384,8 +1383,66 @@ summary {
         width: 48.5vi;
         height: 4.1vi;
         margin-left: 25.6vi;
-        margin-top: 49.5vi;
+        margin-top: 114vi;
     }
-
-
+    .txt9 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-regular";
+        font-size: 4.7vi;
+        margin-left: 25.6vi;
+        margin-top: 126.2vi;
+    }
+    .input7 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-regular";
+        border-width: 0.1vi;
+        border-radius: 4vi;
+        font-size: 4.2vi;
+        width: 48.5vi;
+        height: 4.1vi;
+        margin-left: 25.6vi;
+        margin-top: 134vi;
+    }
+    .txt10 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-regular";
+        font-size: 4.7vi;
+        margin-left: 25.6vi;
+        margin-top: 140.2vi;
+    }
+    .input8 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-regular";
+        border-width: 0.1vi;
+        border-radius: 4vi;
+        font-size: 4.2vi;
+        width: 48.5vi;
+        height: 4.1vi;
+        margin-left: 25.6vi;
+        margin-top: 148vi;
+    }
+    .txt11 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-regular";
+        font-size: 4.7vi;
+        margin-left: 25.6vi;
+        margin-top: 154.2vi;
+    }
+    .input9 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-regular";
+        border-width: 0.1vi;
+        border-radius: 4vi;
+        font-size: 4.2vi;
+        width: 48.5vi;
+        height: 4.1vi;
+        margin-left: 25.6vi;
+        margin-top: 162vi;
+    }
 }
