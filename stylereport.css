@@ -317,8 +317,8 @@ summary {
     display: flex;
     font-size: 1.7vi;
     font-family: "myriadpro-light";
-    margin-left: 5vi;
-    margin-top: 10vi;
+    margin-left: 4vi;
+    margin-top: 11vi;
 }
 .marco1 {
     position: fixed;
@@ -477,4 +477,269 @@ summary {
     background-color: #FF7221;
     margin-top: 3.7vi;
     margin-left: 62.9vi;
+}
+@media (max-width: 1024px){
+
+    .boton2 {
+        position: fixed;
+        display: flex;
+        width: 45.4vi;
+        height: 8.5vi;
+        background-color: #dddddd;
+        border-radius: 4vi;
+        border-color: #868686;
+        border-width: 1px;
+        border-style: solid;
+        margin-top: 120.5vi;
+        margin-left: 28vi;
+    }
+    .txt6{
+        position: fixed;
+        display: flex;
+        font-size: 6vi;
+        font-family: "myriadpro-regular";
+        margin-left: 39vi;
+        margin-top: 121.5vi;
+    }
+    .boton3 {
+        position: fixed;
+        display: flex;
+        width: 45.4vi;
+        height: 8.5vi;
+        background-color: #FF7221;
+        border-radius: 4vi;
+        border-color: #ffffff;
+        border-width: 0px;
+        border-style: solid;
+        margin-top: 108.5vi;
+        margin-left: 28vi;
+    }
+    .txt7 {
+        position: fixed;
+        display: flex;
+        font-size: 5.7vi;
+        font-family: "myriadpro-regular";
+        color: #ffffff;
+        margin-left: 43vi;
+        margin-top: 109.5vi;
+    }
+    .marco2 {
+        position: fixed;
+        display: flex;
+        width: 90.2vi;
+        height: 40.2vi;
+        background-color: #ffffff;
+        border-color: #868686;
+        border-width: 1px;
+        border-style: solid;
+        margin-top: 60vi;
+        margin-left: 5vi;
+    }
+    .txt3 {
+        position: fixed;
+        display: flex;
+        font-size: 4.7vi;
+        font-family: "myriadpro-regular";
+        margin-left: 7vi;
+        margin-top: 62.8vi;
+    }
+    .marco3 {
+        position: fixed;
+        display: flex;
+        width: 84.2vi;
+        height: 17.2vi;
+        background-color: #ffffff;
+        border-radius: 1vi;
+        border-color: #868686;
+        border-width: 1px;
+        border-style: solid;
+        margin-top: 75.5vi;
+        margin-left: 7.9vi;
+    }
+    .txt4 {
+        position: fixed;
+        display: flex;
+        font-size: 4.7vi;
+        font-family: "myriadpro-regular";
+        color: #868686;
+        margin-left: 10vi;
+        margin-top: 75vi;
+    }
+    .boton1 {
+        position: fixed;
+        display: flex;
+        width: 32vi;
+        height: 4.8vi;
+        background-color: #FF7221;
+        border-radius: 2vi;
+        border-color: #868686;
+        border-width: 0px;
+        border-style: solid;
+        margin-top: 94vi;
+        margin-left: 8vi;
+    }
+    .txt5 {
+        position: fixed;
+        display: flex;
+        font-size: 3vi;
+        font-family: "myriadpro-light";
+        color: #ffffff;
+        margin-left: 10vi;
+        margin-top: 95vi;
+    }
+    .adj {
+        position: fixed;
+        display: flex;
+        width: 3.2vi;
+        margin-left: 36vi;
+        margin-top: 95vi;
+    }
+    .marco1 {
+        position: fixed;
+        display: flex;
+        width: 35.2vi;
+        height: 35.2vi;
+        background-color: #ffffff;
+        border-color: #868686;
+        border-width: 1px;
+        border-style: solid;
+        margin-top: 20.5vi;
+        margin-left: 33.8vi;
+    }
+    .adv {
+        position: fixed;
+        display: flex;
+        width: 13vi;
+        margin-left: 38vi;
+        margin-top: 24vi;
+    }
+    .bug1 {
+        position: fixed;
+        display: flex;
+        width: 9vi;
+        margin-left: 57vi;
+        margin-top: 29vi;
+        transform:rotate(45deg)
+    }
+    .bug2 {
+        position: fixed;
+        display: flex;
+        width: 8vi;
+        margin-left: 40vi;
+        margin-top: 42vi;
+        transform:rotate(-45deg)
+    }
+    .txt1 {
+        position: fixed;
+        display: flex;
+        font-size: 5.4vi;
+        font-family: "myriadpro-regular";
+        margin-left: 33vi;
+        margin-top: 5vi;
+    }
+    .bandera {
+        position: fixed;
+        display: flex;
+        width: 7vi;
+        margin-left: 25vi;
+        margin-top: 4.8vi;
+    }
+    .txt2 {
+        position: fixed;
+        display: flex;
+        font-size: 3.7vi;
+        font-family: "myriadpro-light";
+        margin-left: 18vi;
+        margin-top: 13vi;
+    }
+    .marcoperf {
+        position: fixed;
+        display: flex;
+        width: 38.2vi;
+        height: 58.2vi;
+        background-color: #fcfcfc;
+        border-color: #868686;
+        border-width: 1px;
+        border-radius: 2vi;
+        border-style: solid;
+        margin-left: 40vi;
+        margin-top: 5vi;
+    }
+    .txtperf1 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-semibold";
+        font-size: 5.2vi;
+        margin-left: 45.5vi;
+        margin-top: 27.7vi;
+    }
+    .txtperf2 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-light";
+        font-size: 3.5vi;
+        margin-left: 45.6vi;
+        margin-top: 37.2vi;
+    }
+    .marcoperf2 {
+        position: fixed;
+        display: flex;
+        width: 28.5vi;
+        height: 5.8vi;
+        background-color: #fcfcfc;
+        border-color: #868686;
+        border-width: 1px;
+        border-radius: 3vi;
+        border-style: solid;
+        margin-left: 45vi;
+        margin-top: 36.2vi;
+    }
+    .txtperf3 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-regular";
+        color: #ffffff;
+        font-size: 3.5vi;
+        margin-left: 46vi;
+        margin-top: 42.7vi;
+    }
+    .marcoperf3 {
+        position: fixed;
+        display: flex;
+        width: 28.5vi;
+        height: 5.8vi;
+        background-color: #FF7221;
+        border-color: #ffffff;
+        border-width: 1px;
+        border-radius: 3vi;
+        border-style: solid;
+        margin-left: 45vi;
+        margin-top: 45.2vi;
+    }
+    .salid {
+        position: fixed;
+        display: flex;
+        width: 4.5vi;
+        margin-left: 67vi;
+        margin-top: 45.8vi;
+    }
+    .txtperf4 {
+        position: fixed;
+        display: flex;
+        font-family: "myriadpro-light";
+        font-size: 2vi;
+        color: #000000;
+        margin-left: 41.8vi;
+        margin-top: 58.8vi;
+    }
+    .pfp2 {
+        position: fixed;
+        display: flex;
+        width: 18.6vi;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: 0.1vi;
+        margin-left: 50.5vi;
+        margin-top: 8vi;
+    }    
 }
